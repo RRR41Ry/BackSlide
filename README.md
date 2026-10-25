@@ -1,5 +1,113 @@
 # BackSlide
 
+A lightweight Dalamud plugin for **Final Fantasy XIV (FFXIV)** that lets you simulate short W (forward) and S (backward) key presses using in-game macros.
+
+Designed for controller players who want precise forward and backward movement without accidental diagonal inputs.
+
+## Features
+
+- Simulate W and S key presses using in-game macros.
+- Customize key press duration from **0.05 to 0.99 seconds**.
+- Automatically release the key after the specified duration.
+- Supports forward, backward, and stop commands.
+- Compatible with controller cross hotbars.
+- No additional configuration window required.
+
+## Installation
+
+1. Launch FFXIV using XIVLauncher with Dalamud enabled.
+2. Open the chat window and enter `/xlsettings`.
+3. Navigate to the **Experimental** tab.
+4. Find **Custom Plugin Repositories**.
+5. Add the following repository URL:
+
+   `https://raw.githubusercontent.com/RRR41Ry/BackSlide/main/repo.json`
+
+6. Click the **+** button and make sure the repository is enabled.
+7. Click **Save**.
+8. Enter `/xlplugins` in the chat window.
+9. Search for **BackSlide** under **All Plugins**.
+10. Click **Install**.
+
+## Commands
+
+### Move Backward (S Key)
+
+Press S for 0.1 seconds:
+
+```text
+/backslide 0.1
+```
+
+### Move Forward (W Key)
+
+Press W for 0.1 seconds:
+
+```text
+/forwardslide 0.1
+```
+
+### Stop Movement Input
+
+Release any movement key currently held by BackSlide:
+
+```text
+/slidestop
+```
+
+### Custom Duration
+
+You can specify any duration between **0.05 and 0.99 seconds**.
+
+Examples:
+
+```text
+/backslide 0.05
+/backslide 0.2
+/backslide 0.5
+/forwardslide 0.3
+```
+
+If no duration is specified, the default is **0.5 seconds**.
+
+## Controller Setup
+
+1. Open **User Macros** in FFXIV.
+2. Create a new macro.
+3. Enter a BackSlide command, such as:
+
+   ```text
+   /backslide 0.1
+   ```
+
+4. Assign the macro to your cross hotbar.
+5. Press the assigned controller button to execute it.
+
+This allows precise forward or backward movement without using the analog stick.
+
+## Notes
+
+- Designed for Windows.
+- Actual input duration may vary slightly depending on frame rate and system performance.
+- Test the plugin in a safe area before using it during gameplay.
+- This is an unofficial third-party plugin and is not affiliated with or endorsed by Square Enix.
+- Using third-party plugins may violate the FFXIV Terms of Service. Use at your own risk.
+- Compatibility with all Dalamud versions is not guaranteed.
+
+## Version
+
+**v0.1.0.0**
+
+## Credits
+
+Developed for the FFXIV Dalamud plugin ecosystem.
+
+Inspired by existing keyboard input handling implementations in the Dalamud community.
+
+
+--------------------------------------------------------------------------------
+# BackSlide
+
 FF14（FINAL FANTASY XIV）用のDalamudプラグインです。
 
 ゲーム内のマクロから、Wキー（前進）またはSキー（後退）を短時間だけ入力できます。
