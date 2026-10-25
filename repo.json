@@ -1,0 +1,23 @@
+[
+  {
+    "Author": "BackSlide Community Build",
+    "Name": "BackSlide",
+    "InternalName": "BackSlide",
+    "AssemblyVersion": "0.1.0.0",
+    "Description": "Commands /forwardslide and /backslide send a short W/S key pulse (0.05 to 0.99 seconds), automatically releasing the key. /slidestop cancels it.",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Punchline": "Move forward or backward briefly from a macro.",
+    "Tags": [
+      "movement",
+      "controller",
+      "macro"
+    ],
+    "RepoUrl": "https://github.com/RRR41Ry/BackSlide",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/RRR41Ry/BackSlide/main/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/RRR41Ry/BackSlide/main/latest.zip",
+    "LastUpdate": 1792899660
+  }
+]
